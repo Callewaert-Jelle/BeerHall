@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{CE2083DF-1587-49FE-B498-0F43DF4B25A3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/BeerHallDataInitializer.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Data/BeerHallDbContext.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Data/BeerHallDataInitializer.cs" Line="15" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Beerhall" expanded="True">
+            <Node name="Beerhall" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="BeerHallDataInitializer.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Beerhall PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -13,10 +13,10 @@ namespace BeerHall.Models.Domain
         #endregion
 
         #region constructors
-        public Beer()
+        protected Beer()
         {
         }
-        public Beer(string name)
+        public Beer(string name): this()
         {
             Name = name;
         }

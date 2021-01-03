@@ -118,7 +118,6 @@ D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.Tag
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.TagHelpers.output.cache
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.RazorCoreGenerate.cache
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -135,3 +134,5 @@ D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.pdb
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.genruntimeconfig.cache
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.csproj.CoreCompileInputs.cache
 D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Beerhall.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Brewer\Index.cshtml.g.cs
+D:\Projects\Solo Projects\BeerHall\Beerhall\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs

@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Beerhall.Models.Domain;
+using Beerhall.Data.Repositories;
 
 namespace Beerhall
 {
@@ -28,6 +30,7 @@ namespace Beerhall
             services.AddControllersWithViews();
             services.AddDbContext<BeerHallDbContext>(options =>
                 options.UseSqlServer(Configuration.GetValue<string>("Data:DefaultConnection:ConnectionString")));
+            services.AddScoped<IBrewerRepository, BrewerRepository>();
             services.AddScoped<BeerHallDataInitializer>();
         }
 

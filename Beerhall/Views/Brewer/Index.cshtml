@@ -1,6 +1,5 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<BeerHall.Models.Domain.Brewer>
+
 @{
     ViewData["Title"] = "Brewers";
 }
@@ -8,3 +7,28 @@
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
+
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Street</th>
+        <th>Location</th>
+        <th class="text-right">Turnover</th>
+        <th class="text-right">Date established</th>
+    </tr>
+    @foreach (var brewer in Model)
+    {
+        <tr>
+            <td>@brewer.Name</td>
+            <td>@brewer.Street</td>
+            <td>@brewer.Location?.PostalCode @brewer.Location?.Name</td>
+            <td class="text-right">@(brewer.Turnover?.ToString("c") ?? "-")</td>
+            <td class="text-right">@(brewer.DateEstablished?.Date.ToString("d") ?? "-")</td>
+            <td>
+                <p>Detail</p>
+                <p>Edit</p>
+                <p>Delete</p>
+            </td>
+        </tr>
+    }
+</table>

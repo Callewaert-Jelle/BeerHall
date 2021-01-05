@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BeerHall.Models.Domain
 {
@@ -23,12 +24,30 @@ namespace BeerHall.Models.Domain
         {
             Beers = new HashSet<Beer>();
         }
+        public Brewer(string name) : this()
+        {
+            Name = name;
+        }
         public Brewer(string name, Location location, string street)
         {
             Beers = new HashSet<Beer>();
             Name = name;
             Location = location;
             Street = street;
+        }
+
+        public Beer AddBeer(string name, double? alcoholByVolume = null, decimal price = 0, string description = null)
+        {
+            if (name != null && Beers.FirstOrDefault(b => b.Name == name) != null)
+                throw new ArgumentException($"Brewer {Name} has already a beer by the name of {name}");
+            Beer newBeer = new Beer(name)
+            {
+                AlcoholByVolume = alcoholByVolume,
+                Price = price,
+                Description = description
+            };
+            Beers.Add(newBeer);
+            return newBeer;
         }
         #endregion
     }
